@@ -1,0 +1,31 @@
+.moviePoster{
+    width: 310px;
+    height: 450px;
+    object-fit: fill;
+    border-radius: 0.6rem;
+}
+
+.movieCard {
+    padding: 0.8rem;
+    text-align: center;
+    /*border: 2px solid red;*/
+    display: grid;
+    place-content: center;
+    background-color: var(--pure-white-color);
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.movieCard:hover{
+    transform: scale(1.04);
+}
+.movieYear, .movieType {
+    color: var(--grey-color);
+    text-transform: capitalize;
+    /*border: 1px solid red;*/
+}
+
+.movieTitle{
+    font-size: 1.25rem;
+    margin: .3rem 0;
+}
