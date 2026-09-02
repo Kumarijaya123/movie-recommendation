@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cors())
  
 app.get("/", (req, res) => {
-    res.send("Movie Recommendation Server is running!");
+    res.send("Server is running!");
 });
 // routes
 app.use("/api/users", userRoutes)
