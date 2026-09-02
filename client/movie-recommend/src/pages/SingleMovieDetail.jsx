@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable no-empty */
-/* eslint-disable no-unused-vars */
+
 import {useState, useEffect} from 'react'
 import { useParams } from "react-router-dom"
 import spinner from "../assets/spinner.jpg"
@@ -12,6 +10,7 @@ function SingleMovieDetail() {
   const {imdbid} = useParams()
   const [isLoading, setIsLoading] = useState(true)
   const [movieDetail, setMovieDetail] = useState({})
+  
   async function fetchMovieDetails(){
     const URL = `https://omdbapi.com/?i=${imdbid}&apikey=${import.meta.env.VITE_API_KEY}`;
     try{

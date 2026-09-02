@@ -13,16 +13,16 @@
 }
 .infoOnLeft{
     color: aliceblue;
-   /* background-color: aliceblue;*/
+
 }
 .infoPara {
-    /*border: 2px solid red;*/
+  
     display: flex;
     margin: 1rem 0;
     color: aliceblue;
 }
 .key{
-   /* border: 2px solid green;*/
+  
     width: 200px;
     color: #b2adad;
     font-weight: 800;
